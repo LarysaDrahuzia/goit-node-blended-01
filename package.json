@@ -1,0 +1,28 @@
+{
+  "name": "goit-node-blended-01",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProducts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarysaDrahuzia/goit-node-blended-01.git"
+  },
+  "keywords": [],
+  "author": "Larysa Drahuzia <draglara@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarysaDrahuzia/goit-node-blended-01/issues"
+  },
+  "homepage": "https://github.com/LarysaDrahuzia/goit-node-blended-01#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@faker-js/faker": "^9.7.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.0.0"
+  }
+}
