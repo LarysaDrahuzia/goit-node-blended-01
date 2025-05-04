@@ -1,3 +1,26 @@
-{
-  "products": []
-}
+[
+  {
+    "name": "Intelligent Aluminum Bike",
+    "price": "455.85",
+    "category": "Home",
+    "description": "The Streamlined exuding parallelism Pizza offers reliable performance and potable design"
+  },
+  {
+    "name": "Awesome Silk Gloves",
+    "price": "108.15",
+    "category": "Automotive",
+    "description": "Our zebra-friendly Towels ensures unused comfort for your pets"
+  },
+  {
+    "name": "Bespoke Steel Towels",
+    "price": "14.39",
+    "category": "Jewelry",
+    "description": "The orchid Tuna combines Andorra aesthetics with Krypton-based durability"
+  },
+  {
+    "name": "Soft Marble Cheese",
+    "price": "166.49",
+    "category": "Jewelry",
+    "description": "New violet Tuna with ergonomic design for esteemed comfort"
+  }
+]

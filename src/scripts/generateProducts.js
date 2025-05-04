@@ -9,13 +9,13 @@ export async function generateProducts(count) {
   }
 
   const dbData = await readData();
-  dbData.products = dbData.products || [];
+  const newData = [];
 
   for (let i = 0; i < count; i++) {
-    dbData.products.push(createFakeProduct());
+    newData.push(createFakeProduct());
   }
 
-  await writeData(dbData);
+  await writeData([...dbData, ...newData]);
 
   console.log(`Successfully added ${count} new products.`);
 }
