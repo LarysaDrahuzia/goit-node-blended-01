@@ -6,7 +6,7 @@ import fs from 'node:fs/promises';
 export const createProductsFiles = async () => {
   try {
     const products = await readData();
-    const operations = products.map(async (product) => {
+    for (const product of products) {
       const fileName = `${product.name
         .toLowerCase()
         .split(' ')
@@ -14,8 +14,7 @@ export const createProductsFiles = async () => {
       const filePath = path.join(PATH_FILES_DIR, fileName);
       const content = JSON.stringify(product, undefined, 2);
       await fs.writeFile(filePath, content);
-    });
-    await Promise.all(operations);
+    }
   } catch (error) {
     console.error(error);
   }
